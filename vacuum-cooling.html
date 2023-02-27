@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <img
+            class="max-w-[200px] lg:max-w-[260px] xl:max-w-[316px]"
+            src="./img/logo.png"
+            alt="logo"
+          />
+          <div class="hidden lg:flex">
+            <a
+              class="text-sm xl:text-base flex items-center mr-8"
+              href="tel:+37069818357"
+            >
+              <img
+                class="w-6 h-6 mr-2"
+                src="./img/icons/phone.svg"
+                alt="phone"
+              />
+              +37069818357
+            </a>
+            <a
+              class="text-sm xl:text-base flex items-center mr-8"
+              href="tel:+37068246387"
+            >
+              <img
+                class="w-6 h-6 mr-2"
+                src="./img/icons/phone.svg"
+                alt="phone"
+              />
+              +37068246387
+            </a>
+            <a
+              class="text-sm xl:text-base flex items-center"
+              href="tel:+37068246387"
+            >
+              <img class="w-6 h-6 mr-2" src="./img/icons/map.svg" alt="phone" />
+              Tarpučių g. 216A, Skaisčiūnų k. <br />
+              Marijampolės sav., LT-69338
+            </a>
+          </div>
+          <div class="hidden lg:flex items-center">
+            <a href="#" class="block mr-6">
+              <img src="./img/icons/flag-en.svg" alt="flag-en" />
+            </a>
+            <a href="#" class="block">
+              <img src="./img/icons/flag-lt.svg" alt="flag-en" />
+            </a>
+          </div>
+          <img
+            class="w-12 h-12 block lg:hidden"
+            src="./img/icons/burger.svg"
+            alt="menu"
+          />
+        </div>
+      </div>
+      <nav class="hidden lg:block bg-primary">
+        <div class="container">
+          <ul class="flex py-7 justify-center">
+            <li class="hover:text-secondary duration-200">
+              <a class="block mr-7 text-xl text-white group" href="#"
+                >Home
+                <span
+                  class="block bg-secondary h-px w-0 group-hover:w-full duration-200"
+                ></span
+              ></a>
+            </li>
+            <li>
+              <a class="mr-7 text-xl text-white" href="">Vacuum cooling</a>
+            </li>
+            <li>
+              <a class="mr-7 text-xl text-white" href="">About us</a>
+            </li>
+            <li>
+              <div
+                class="relative flex items-center mr-7 text-xl text-white group"
+              >
+                Solutions
+                <img
+                  class="w-3 h-[6px] ml-2"
+                  src="./img/icons/arrow-white.svg"
+                  alt="arrow"
+                />
+                <ul
+                  class="hidden group-hover:block absolute top-7 left-0 bg-primary p-2"
+                >
+                  <li>
+                    <a
+                      class="py-2 font-medium text-base whitespace-nowrap text-white"
+                      href=""
+                      >Industrial process automation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="py-2 font-medium text-base whitespace-nowrap text-white"
+                      href=""
+                      >PLC & HMI programming</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="py-2 font-medium text-base whitespace-nowrap text-white"
+                      href=""
+                      >Electrical assembly</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a class="mr-7 text-xl text-white" href="">Project</a></li>
+            <li><a class="mr-7 text-xl text-white" href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="relative">
+      <img
+        src="./img/bg-lander-hero.jpeg"
+        alt="hero background"
+        class="absolute inset-0 -z-20 w-full h-full object-cover object-left md:object-center"
+      />
+      <div class="absolute inset-0 -z-10 bg-[#242424] opacity-80"></div>
+      <div class="container">
+        <div
+          class="flex min-h-[214px] md:min-h-[370px] items-center justify-center"
+        >
+          <h1
+            class="font-semibold text-white text-3xl md:text-5xl uppercase text-center"
+          >
+            Vacuum cooling
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12 md:py-24">
+      <div class="container">
+        <h2
+          class="mb-8 md:mb-12 text-center font-medium text-2xl md:text-3xl uppercase"
+        >
+          Introducing the Industrial Vacuum Cooler
+        </h2>
+        <p class="text-center leading-loose">
+          the reliable and efficient way to cool rice porridge, and other
+          similar products. Our innovative design enables rapid cooling without
+          sacrificing quality or flavor. With our industrial vacuum cooler, you
+          can achieve maximum efficiency with minimal energy usage in a fraction
+          of the time compared to traditional cooling methods. Our superior
+          design also helps retain product integrity while providing an even
+          temperature throughout. Perfect for large-scale production. Our
+          industrial vacuum cooler is sure to meet any needs.
+        </p>
+      </div>
+    </section>
+
+    <section class="pb-12 md:pb-24">
+      <div class="container">
+        <h2
+          class="mb-8 md:mb-12 text-center font-medium text-2xl md:text-3xl uppercase"
+        >
+          Our products
+        </h2>
+        <div class="grid grid-cols-2 gap-6">
+          <a href="#" class="block">
+            <img src="./img/vac-ease-200.jpeg" alt="" />
+            <p class="font-semibold md:text-xl mt-2 md:mt-4 text-center">
+              VacEase-200
+            </p>
+          </a>
+          <a href="#" class="block">
+            <img src="./img/vac-ease-100.jpeg" alt="" />
+            <p class="font-semibold md:text-xl mt-2 md:mt-4 text-center">
+              VacEase-100
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-12 md:pb-24">
+      <div class="container">
+        <h2
+          class="mb-8 md:mb-12 text-center font-medium text-2xl md:text-3xl uppercase"
+        >
+          Why Vacuum cooling?
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3">
+          <div
+            class="text-center md:border-r px-4 md:px-6 border-gray-500 mb-4 md:mb-0"
+          >
+            <div>
+              <div
+                class="flex items-center justify-center mb-4 md:mb-0 md:flex-col"
+              >
+                <img
+                  class="md:w-[72px] md:h-[72px] w-10 h-10 md:mb-4 mr-4 md:mr-0"
+                  src="./img/service.png"
+                  alt=""
+                />
+                <div class="font-medium md:text-lg md:mb-5 text-xs">
+                  Faster Cooling:
+                </div>
+              </div>
+              <p
+                class="mb-8 md:mb-9 text-gray-500 text-xs md:text-base leading-loose"
+              >
+                Industrial vacuum cooling systems can rapidly cool hot products,
+                such as meat or baked goods, by using a vacuum chamber to remove
+                heat from the product. This can significantly reduce cooling
+                times compared to traditional air cooling methods.
+              </p>
+            </div>
+          </div>
+          <div
+            class="text-center md:border-r px-4 md:px-6 border-gray-500 mb-4 md:mb-0"
+          >
+            <div>
+              <div
+                class="flex items-center justify-center mb-4 md:mb-0 md:flex-col"
+              >
+                <img
+                  class="md:w-[72px] md:h-[72px] w-10 h-10 md:mb-4 mr-4 md:mr-0"
+                  src="./img/service.png"
+                  alt=""
+                />
+                <div class="font-medium md:text-lg md:mb-5 text-xs">
+                  Improved Food Safety:
+                </div>
+              </div>
+              <p
+                class="mb-8 md:mb-9 text-gray-500 text-xs md:text-base leading-loose"
+              >
+                Vacuum cooling can help prevent the growth of harmful bacteria
+                on food products by reducing the time that the product spends in
+                the "danger zone" (between 4 and 60 degrees Celsius) where
+                bacteria can multiply
+              </p>
+            </div>
+          </div>
+          <div
+            class="text-center md:border-r px-4 md:px-6 border-gray-500 mb-4 md:mb-0"
+          >
+            <div>
+              <div
+                class="flex items-center justify-center mb-4 md:mb-0 md:flex-col"
+              >
+                <img
+                  class="md:w-[72px] md:h-[72px] w-10 h-10 md:mb-4 mr-4 md:mr-0"
+                  src="./img/service.png"
+                  alt=""
+                />
+                <div class="font-medium md:text-lg md:mb-5 text-xs">
+                  Quality Preservation:
+                </div>
+              </div>
+              <p
+                class="mb-8 md:mb-9 text-gray-500 text-xs md:text-base leading-loose"
+              >
+                Vacuum cooling can help preserve the quality of food products by
+                reducing the amount of moisture loss during the cooling process.
+                This can help maintain the texture, flavor, and appearance of
+                the product. Additionally, vacuum cooling can help prevent the
+                formation of ice crystals in frozen products, which can cause
+                damage to the texture of the product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div
+          class="flex justify-center sm:justify-between items-center flex-wrap sm:flex-nowrap border-t mb-4 md:mb-0"
+        >
+          <img
+            class="block max-w-[200px] lg:max-w-[260px] xl:max-w-[316px] mb-4 sm:mb-0"
+            src="./img/logo.png"
+            alt="logo"
+          />
+          <div class="flex">
+            <a
+              class="text-sm xl:text-base flex items-center mr-8"
+              href="tel:+37069818357"
+            >
+              <img
+                class="w-6 h-6 mr-2"
+                src="./img/icons/phone.svg"
+                alt="phone"
+              />
+              +37069818357
+            </a>
+            <a
+              class="text-sm xl:text-base flex items-center mr-8"
+              href="tel:+37068246387"
+            >
+              <img
+                class="w-6 h-6 mr-2"
+                src="./img/icons/phone.svg"
+                alt="phone"
+              />
+              +37068246387
+            </a>
+            <a
+              class="hidden lg:flex text-sm xl:text-base items-center"
+              href="tel:+37068246387"
+            >
+              <img class="w-6 h-6 mr-2" src="./img/icons/map.svg" alt="phone" />
+              Tarpučių g. 216A, Skaisčiūnų k. <br />
+              Marijampolės sav., LT-69338
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary py-10 md:py-[60px]">
+        <div class="container">
+          <div class="flex space-x-10 justify-center">
+            <a href="#" target="_blank">
+              <img
+                class="text-white fill-white"
+                src="./img/icons/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./img/icons/linkedin.svg" alt="linkedin" />
+            </a>
+            <a href="#" target="_blank">
+              <img src="./img/icons/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
